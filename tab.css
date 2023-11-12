@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+}
+.tab{
+    width:20%;
+    height:100%;
+    position:fixed;
+    overflow:hidden;
+    margin:0;
+    background-color:rgb(179, 140, 135)
+}
+.tab button {
+    width:100%;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+.content{
+    margin-left:200px;
+  
+    display:none;
+    padding: 6px 12px;
+    
+}
+
+.tab button.active {
+    background-color:rgb(229, 231, 232);
+  }
+  
+.tablink:hover{
+    background-color:rgb(229, 231, 232);
+}
